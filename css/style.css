@@ -7,7 +7,6 @@ html,
 body {
 	height: 100%;
 	font-family: 'Raleway';
-
 }
 
 h1,
@@ -19,7 +18,6 @@ h6 {
 	margin: 0;
 	font-weight: 600;
 	line-height: 1.4;
-
 }
 
 
@@ -27,7 +25,7 @@ h6 {
 	color: #ffffff !important;
 	background-color: rgb(0, 17, 104) !important;
 	border-color: rgb(0, 17, 104) !important;
-  }
+}
   
 h3 {
 	font-size: 30px;
@@ -170,7 +168,6 @@ Commom elements
 	background-color: transparent;
 	border-radius: 30px;
 	border: none;
-
 }
 
 .btn-light:hover {
@@ -189,7 +186,6 @@ Commom elements
 
 .carousel-control-next, .carousel-control-prev {
 	opacity: 100;
-	
 }
 
 .contactoMenu {
@@ -275,8 +271,6 @@ Commom elements
 	background: rgba(50, 205, 50, 0.541);
 	color: #fff;
 }
-
-
 
 /* Preloder */
 
@@ -441,9 +435,6 @@ Header section
 
 .header-right {
 	display: flex;
-	/* display: -webkit-inline-box; */
-	/* display: -ms-inline-flexbox; */
-	/* display: inline-flex; */
 }
 
 .header-right .hr-btn {
@@ -456,36 +447,11 @@ Header section
 	display: block;
 }
 
-.botonPresupuestoAppC {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.botonPresupuestoDesinsec {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.botonPresupuestoDesra {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.botonPresupuestoFumi {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.botonPresupuestoMadera {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
+.botonPresupuestoAppC,
+.botonPresupuestoDesinsec,
+.botonPresupuestoDesra,
+.botonPresupuestoFumi,
+.botonPresupuestoMadera,
 .botonPresupuestoDesinf {
 	display: flex;
 	align-items: center;
@@ -536,7 +502,6 @@ Header section
 }
 
 .hero-slider {
-	/*position: absolute;*/
 	width: 100%;
 	height: 80%;
 	left: 0;
@@ -546,6 +511,7 @@ Header section
 .hero-slider-1 {
 	position: absolute;
 }
+
 .hero-slider .owl-stage-outer,
 .hero-slider .owl-stage,
 .hero-slider .owl-item,
@@ -588,7 +554,6 @@ Header section
 	color:black;
 	margin-bottom: 20px;
 	margin-top: 0px;
-
 }
 
 
@@ -636,7 +601,6 @@ CTA section
 	color: black;
 	margin-bottom: 30px;
 	line-height: 1.4;
-
 }
 
 /* ----------------
@@ -734,21 +698,23 @@ Footer section
 .vl {
 	border-right: 1px solid white;
 	height: 200px;
-  }
+}
 
 
 /* ----------------
 Sobre nosotros Page
  ------------------*/
 
- /* .about-text {
-	padding-top: 100px;
-} */
-
 .about-text h2 {
 	font-weight: 800;
 	margin-bottom: 50px;
-	/* margin-top: 570px; */
+}
+
+.about-text p {
+	margin-bottom: 40px;
+	font-size: medium;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .aboutEmpresa h2 {
@@ -760,13 +726,6 @@ Sobre nosotros Page
 .aboutEmpresa {
 	padding-top: 0px;
 	margin-top: 30px;
-}
-
-.about-text p {
-	margin-bottom: 40px;
-	font-size: medium;
-	margin-left: 50px;
-	margin-right: 50px;
 }
 
 /* ----------------
@@ -862,117 +821,14 @@ Contacto Page
 	display: none;
 }
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS */
-
 .AppccDescrip {
 	padding-top: 24px;
 }
-/*.AppccDescrip,
-.DesinfeccionDescrip,
-.DesinsectacionDescrip,
-.DesratizacionDescrip,
-.FumigaDescrip,
-.LegionellaDescrip,
-.TratamientoDescrip {
-	margin-top: 600px;
 
-}*/
-
-/*.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 90%;
-}*/
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-/* .AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 500px; 
+.PrivacidadDescrip,
+.LegalDescrip {
+	padding-top: 200px;
 }
-
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 90%;
-} */
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-/*.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 500px;
-}*/
-
-/*.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 90%;
-}*/
-
-/* PRIVACIDAD */
-
-.SliderPrivacidad {
-	height: 90%;
-}
-
-.PrivacidadDescrip h2 {
-	margin-top: 500px;
-}
-
-/* LEGAL */
-
-.SliderLegal {
-	height: 90%;
-}
-
-.LegalDescrip h2 {
-	margin-top: 500px;
-}
-
-/* COOKIES */
-
-.SliderCookies {
-	height: 90%;
-}
-
-.CookiesDescrip h2 {
-	margin-top: 500px;
-} 
 
 
 /* MEDIA QUERIES */
@@ -1008,118 +864,15 @@ Contacto Page
 	min-width: 333px;
 }
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS*/
-
-/*.AppccDescrip,
-.DesinfeccionDescrip,
-.DesinsectacionDescrip,
-.DesratizacionDescrip,
-.FumigaDescrip,
-.LegionellaDescrip,
-.TratamientoDescrip {
-	margin-top: 550px;
-}*/
-
-/*.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 80%;
-}*/
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-/*.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
+.PrivacidadDescrip,
+.LegalDescrip {
+	padding-top: 200px;
 }
-*/
-/*.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}*/
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
+.aboutEmpresa {
+	margin-top: 30px;
+}
 
-/*.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}*/
-
-/*.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}*/
-
-	/* PRIVACIDAD */
-
-	.SliderPrivacidad {
-		height: 50%;
-	}
-
-	.PrivacidadDescrip h2 {
-		margin-top: 420px;
-	}
-
-	
-	/* LEGAL */
-
-	.SliderLegal {
-		height: 50%;
-	}
-
-	.LegalDescrip h2 {
-		margin-top: 420px;
-	}
-
-	/* COOKIES */
-
-		.SliderCookies {
-		height: 50%;
-	}
-
-	.CookiesDescrip h2 {
-		margin-top: 420px;
-	} 
-
-	.aboutEmpresa {
-		margin-top: 30px;
-	}
 }
 
 /* Intermedio */
@@ -1153,18 +906,6 @@ Contacto Page
 	min-width: 333px;
 }
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS*/
-
-/*.AppccDescrip h2,
-.DesinfeccionDescrip h2,
-.DesinsectacionDescrip h2,
-.DesratizacionDescrip h2,
-.FumigaDescrip h2,
-.LegionellaDescrip h2,
-.TratamientoDescrip h2 {
-	margin-top: 530px;
-}*/
-
 .SliderDesinfeccion,
 .SliderAppcc,
 .SliderDesinsectacion,
@@ -1175,100 +916,15 @@ Contacto Page
 	height: 80%;
 }
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-/*.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}*/
-/*
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
+.PrivacidadDescrip,
+.LegalDescrip {
+	padding-top: 200px;
 }
-*/
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-/*.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}*/
-
-/*.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}*/
-
-/* PRIVACIDAD */
-
-.SliderPrivacidad {
-	height: 50%;
-}
-
-.PrivacidadDescrip h2 {
-	margin-top: 420px;
-}
-
-
-/* LEGAL */
-
-.SliderLegal {
-	height: 50%;
-}
-
-.LegalDescrip h2 {
-	margin-top: 420px;
-}
-
-/* COOKIES */
-
-	.SliderCookies {
-	height: 50%;
-}
-
-.CookiesDescrip h2 {
-	margin-top: 420px;
-} 
-
-/* .aboutEmpresa {
-	margin-top: 30px;
-} */
 
 } 
 
 /* Tablets baja resolución y móviles (landscape) */
+
 @media (min-width: 481px) and (max-width: 952px) {
 
 body {
@@ -1394,118 +1050,15 @@ body {
 	min-width: 333px;
 }
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS */
-
-/*.AppccDescrip h2,
-.DesinfeccionDescrip h2,
-.DesinsectacionDescrip h2,
-.DesratizacionDescrip h2,
-.FumigaDescrip h2,
-.LegionellaDescrip h2,
-.TratamientoDescrip h2 {
-	margin-top: 530px;
-}*/
-
-/*.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 60%;
+.PrivacidadDescrip,
+.LegalDescrip {
+	padding-top: 300px;
 }
-*/
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-/*.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}*/
-
-/*.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}*/
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-/*.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}*/
-
-/*.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}*/
-
-/* PRIVACIDAD */
-
-.SliderPrivacidad {
-	height: 50%;
-}
-
-.PrivacidadDescrip h2 {
-	margin-top: 420px;
-}
-
-
-/* LEGAL */
-
-.SliderLegal {
-	height: 50%;
-}
-
-.LegalDescrip h2 {
-	margin-top: 420px;
-}
-
-/* COOKIES */
-
-	.SliderCookies {
-	height: 50%;
-}
-
-.CookiesDescrip h2 {
-	margin-top: 420px;
-} 
 
 } 
 
 /* Mayoría de los smartphone (portrait) */
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 body {
@@ -1547,8 +1100,8 @@ body {
 	background: transparent;
 	display: flex;
 	justify-content: center;
-
 }
+
 .slicknav_btn {
 	background: #01188C;
 	margin-top: 0px;
@@ -1559,8 +1112,8 @@ body {
 .slicknav_nav {
 	background: #01188C;
 	margin-bottom: 0px;
-	
 }
+
 .slicknav_nav a {
 	margin: 0;
 	padding: 10px 20px;
@@ -1571,14 +1124,17 @@ body {
 	border-radius: 0;
 	background: #01188C;
 }
+
 .slicknav_nav .slicknav_row {
 	padding: 10px 20px;
 	margin: 0;
 }
+
 .slicknav_nav .slicknav_row:hover {
 	border-radius: 0;
 	background: #01188C;
 }
+
 .slicknav_parent:hover {
 	background: #01188C;
 	color: #01188C;
@@ -1631,115 +1187,10 @@ body {
 	padding-top: 70px;
 }
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS */
-
-/*.AppccDescrip h2,
-.DesinfeccionDescrip h2,
-.DesinsectacionDescrip h2,
-.DesratizacionDescrip h2,
-.FumigaDescrip h2,
-.LegionellaDescrip h2,
-.TratamientoDescrip h2 {
-	margin-top: 530px;
-}*/
-
-/*.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 60%;
-}*/
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-/*.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}*/
-
-/*.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}*/
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-./*avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}*/
-
-/*.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}*/
-
-	/* PRIVACIDAD */
-
-	.SliderPrivacidad {
-		height: 50%;
-	}
-
-	.PrivacidadDescrip h2 {
-		margin-top: 420px;
-	}
-
-	
-	/* LEGAL */
-
-	.SliderLegal {
-		height: 50%;
-	}
-
-	.LegalDescrip h2 {
-		margin-top: 420px;
-	}
-
-	/* COOKIES */
-
-		.SliderCookies {
-		height: 50%;
-	}
-
-	.CookiesDescrip h2 {
-		margin-top: 420px;
-	} 
-
+.PrivacidadDescrip,
+.LegalDescrip {
+	padding-top: 300px;
+}
 
 } 
 

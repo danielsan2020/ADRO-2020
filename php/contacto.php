@@ -2,7 +2,7 @@
 
 if($_POST["submit"]) {
     $recipient="info@adrosl.com";
-    $subject="Form to email message";
+    $subject="Tienes un mensaje nuevo";
     $sender=$_POST["sender"];
     $senderPhone=$_POST["senderPhone"];
     $senderCity=$_POST["senderCity"];
@@ -13,20 +13,20 @@ if($_POST["submit"]) {
     switch ($senderMeet) {
         case 'senderMeet1':
         $mail_to = 'info@adrosl.com';
-        break; 
-    case 'senderMeet2':
+            break; 
+        case 'senderMeet2':
         $mail_to = 'info@adrosl.com';
-        break;
-    case 'senderMeet3':
+            break;
+        case 'senderMeet3':
         $mail_to = 'info@adrosl.com';
-        break;
-    case 'senderMeet4':
+            break;
+        case 'senderMeet4':
         $mail_to = 'info@adrosl.com';
-        break;
+            break;
 }
 
     $senderSubject = $_POST['senderSubject'];
-    switch ($senderMeet) {
+    switch ($senderSubject) {
         case 'senderSubject1':
         $mail_to = 'info@adrosl.com';
             break;
@@ -46,9 +46,6 @@ if($_POST["submit"]) {
         $mail_to = 'info@adrosl.com';        
             break;
 }
-
-// es correcto este sender subject1, no le encuentro sentido
-senderSubject1 
 
     $mailBody="Name: $sender\n Phone: $senderPhone\n City: $senderCity\n Email: $senderEmail\n Meet: $senderMeet\n Subject: $senderSubject\n Message: $message\n";
 
