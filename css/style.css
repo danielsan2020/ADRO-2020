@@ -334,132 +334,129 @@ Commom elements
 Header section
  ---------------------*/
 
-.header-section {
-	width: 100%;
-	left: 0;
-	top: 0;
-	padding-left: 5px;
-	background-color: rgba(1, 24, 140, 0.616);
-	z-index: 999;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
+	.header-section {
+		width: 100%;
+		left: 0;
+		top: 0;
+		padding-left: 5px;
+		background-color: rgba(1, 24, 140, 0.616);
+		z-index: 999;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
 
-.header-nav {
-	text-align: right;
-}
+	.header-nav {
+		text-align: right;
+	}
 
-.navbar-brand {
-	display: block;
-	padding: 33.5px 0px 18px 20px;
-	float: left;
-}
+	.navbar-brand {
+		display: block;
+		padding: 33.5px 0px 18px 20px;
+		float: left;
+	}
 
-.main-menu {
-	padding-right: 50px;
-	padding-left: 50px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
+	.main-menu {
+		padding-right: 50px;
+		padding-left: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
 
-.main-menu li {
-	display: inline-block;
-	position: relative;
-}
+	.main-menu li {
+		display: inline-block;
+		position: relative;
+	}
 
-.main-menu li a {
-	display: flex;
-	font-size: 16px;
-	color: whitesmoke;
-	font-weight: 600;
-	padding: 10px 0px;
-	margin-right: 45px;
-}
+	.main-menu li a {
+		display: flex;
+		font-size: 16px;
+		color: whitesmoke;
+		font-weight: 600;
+		padding: 10px 0px;
+		margin-right: 45px;
+	}
 
-.sub-Q {
-	display: block;
-	font-size: 16px;
-	color: whitesmoke;
-	font-weight: 600;
-	padding: 10px 0px;
-	margin-right: 45px;
-}
+	.sub-Q {
+		display: block;
+		font-size: 16px;
+		color: whitesmoke;
+		font-weight: 600;
+		padding: 10px 0px;
+		margin-right: 45px;
+	}
 
-.sub-Q:hover,
-.sub-Q.active { 
-	color: #32CD32;
-}
+	.sub-Q:hover,
+	.sub-Q.active { 
+		color: #32CD32;
+	}
 
-.main-menu li a:hover,
-.main-menu li a.active { 
-	color: #32CD32;
-}
+	.main-menu li a:hover,
+	.main-menu li a.active { 
+		color: #32CD32;
+	}
 
-.main-menu li:hover>.sub-menu {
-	visibility: visible;
-	opacity: 1;
-	margin-top: 0;
-}
+	.main-menu li:hover>.sub-menu {
+		visibility: visible;
+		opacity: 1;
+		margin-top: 0;
+	}
 
-.main-menu .sub-menu {
-	position: absolute;
-	list-style: none;
-	width: 220px;
-	left: 0;
-	top: 100%;
-	text-align: left;
-	padding: 20px 0;
-	visibility: hidden;
-	opacity: 0;
-	margin-top: 50px;
-	background: #fff;
-	z-index: 99;
-	-webkit-transition: all 0.4s;
-	transition: all 0.4s;
-	-webkit-box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.15);
-	box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.15);
-}
+	.main-menu .sub-menu {
+		position: absolute;
+		list-style: none;
+		width: 220px;
+		left: 0;
+		top: 100%;
+		text-align: left;
+		padding: 20px 0;
+		visibility: hidden;
+		opacity: 0;
+		margin-top: 50px;
+		background: #fff;
+		z-index: 99;
+		-webkit-transition: all 0.4s;
+		transition: all 0.4s;
+		-webkit-box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.15);
+		box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.15);
+	}
 
-.main-menu .sub-menu li {
-	display: block;
-}
+	.main-menu .sub-menu li {
+		display: block;
+	}
 
-.main-menu .sub-menu li a {
-	display: block;
-	color: #000;
-	margin-left: 0;
-	padding: 10px 10px 0px 50px;
-}
+	.main-menu .sub-menu li a {
+		display: block;
+		color: #000;
+		margin-left: 0;
+		padding: 10px 10px 0px 50px;
+	}
 
-.main-menu .sub-menu li a:hover {
-	color: #01188C;
-}
+	.main-menu .sub-menu li a:hover {
+		color: #01188C;
+	}
 
-.header-right {
-	display: flex;
-	/* display: -webkit-inline-box; */
-	/* display: -ms-inline-flexbox; */
-	/* display: inline-flex; */
-}
+	.header-right {
+		display: flex;
+	}
 
-.header-right .hr-btn {
-	color: #fff;
-	font-size: 18px;
-	font-weight: 700;
-	background: #32CD32;
-	padding: 15px 10px 10px 28px;
-	position: relative;
-	display: block;
-}
+	.header-right .hr-btn {
+		color: #fff;
+		font-size: 18px;
+		font-weight: 700;
+		background: #32CD32;
+		padding: 15px 10px 10px 28px;
+		position: relative;
+		display: block;
+	}
 
-.botonPresupuestoAppC {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	.botonPresupuestoAppC {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 }
 
 .botonPresupuestoDesinsec {
@@ -536,9 +533,9 @@ Header section
 }
 
 .hero-slider {
-	/* position: absolute; */
+	/*position: absolute;*/
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	left: 0;
 	top: 0;
 }
@@ -695,278 +692,191 @@ Contacta con experto section
 Footer section
  ---------------------*/
 
-.footer-section {
-	padding-left: 80px;
-	padding-right: 80px;
-	padding-top: 70px;
-	background: #01188C;
-}
+	.footer-section {
+		padding-left: 80px;
+		padding-right: 80px;
+		padding-top: 70px;
+		background: #01188C;
+	}
 
 
-.footer-widget h2 {
-	font-size: 18px;
-	font-weight: 700;
-	margin-bottom: 30px;
-	color: #fff;
-}
+	.footer-widget h2 {
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 30px;
+		color: #fff;
+	}
 
-.footer-widget ul {
-	list-style: none;
-}
+	.footer-widget ul {
+		list-style: none;
+	}
 
-.footer-widget ul li a {
-	display: inline-block;
-	font-size: 14px;
-	color: #ffffff;
-	margin-bottom: 15px;
-}
+	.footer-widget ul li a {
+		display: inline-block;
+		font-size: 14px;
+		color: #ffffff;
+		margin-bottom: 15px;
+	}
 
-.copyright {
-	color: #74757b;
-	font-size: 14px;
-	padding-bottom: 20px;
-}
+	.copyright {
+		color: #74757b;
+		font-size: 14px;
+		padding-bottom: 20px;
+	}
 
 
-.vl {
-	border-right: 1px solid white;
-	height: 200px;
-  }
+	.vl {
+		border-right: 1px solid white;
+		height: 200px;
+	}
 
 
 /* ----------------
 Sobre nosotros Page
  ------------------*/
 
- /* .about-text {
-	padding-top: 100px;
-} */
+	.about-text h2 {
+		font-weight: 800;
+	}
 
-.about-text h2 {
-	font-weight: 800;
-	margin-bottom: 50px;
-	/* margin-top: 570px; */
-}
+	.aboutEmpresa h2 {
+		font-weight: 800;
+		margin-bottom: 50px;
+		margin-top: 0px;
+	}
 
-.aboutEmpresa h2 {
-	font-weight: 800;
-	margin-bottom: 50px;
-	margin-top: 0px;
-}
+	.aboutEmpresa {
+		padding-top: 0px;
+		margin-top: 30px;
+	}
 
-.aboutEmpresa {
-	padding-top: 0px;
-	margin-top: 30px;
-}
+	.about-text p {
+		margin-bottom: 40px;
+		font-size: medium;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 
-.about-text p {
-	margin-bottom: 40px;
-	font-size: medium;
-	margin-left: 50px;
-	margin-right: 50px;
-}
+	/* ----------------
+	Contacto Page
+	------------------*/
 
-/* ----------------
-Contacto Page
- ------------------*/
+	.contact-text {
+		padding-right: 5px;
+	}
 
-.contact-text {
-	padding-right: 5px;
-}
+	.contact-text h2 {
+		font-weight: 700;
+		margin-bottom: 38px;
+	}
 
-.contact-text h2 {
-	font-weight: 700;
-	margin-bottom: 38px;
-}
+	.contact-text p {
+		margin-bottom: 30px;
+	}
 
-.contact-text p {
-	margin-bottom: 30px;
-}
+	.contact-text ul {
+		margin-bottom: 40px;
+		list-style: none;
+	}
 
-.contact-text ul {
-	margin-bottom: 40px;
-	list-style: none;
-}
+	.contact-text ul li {
+		font-size: 14px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
 
-.contact-text ul li {
-	font-size: 14px;
-	font-weight: 600;
-	margin-bottom: 10px;
-}
+	.contact-text ul li i {
+		font-size: 29px;
+		color: #01188C;
+		display: inline-block;
+		width: 41px;
+		position: relative;
+		top: 5px;
+		font-weight: 400;
+	}
 
-.contact-text ul li i {
-	font-size: 29px;
-	color: #01188C;
-	display: inline-block;
-	width: 41px;
-	position: relative;
-	top: 5px;
-	font-weight: 400;
-}
+	.contact-form {
+		padding-top: 50px;
+	}
 
-.contact-form {
-	padding-top: 50px;
-}
+	.contact-form input,
+	.contact-form textarea {
+		width: 100%;
+		height: 59px;
+		border: none;
+		padding: 0 27px;
+		margin-bottom: 30px;
+		font-size: 14px;
+		color: #838383;
+		background: #ebf0f3;
+	}
 
-.contact-form input,
-.contact-form textarea {
-	width: 100%;
-	height: 59px;
-	border: none;
-	padding: 0 27px;
-	margin-bottom: 30px;
-	font-size: 14px;
-	color: #838383;
-	background: #ebf0f3;
-}
+	.contact-form textarea {
+		height: 222px;
+		padding: 20px 27px 10px;
+		margin-bottom: 35px;
+		resize: none;
+	}
 
-.contact-form textarea {
-	height: 222px;
-	padding: 20px 27px 10px;
-	margin-bottom: 35px;
-	resize: none;
-}
+	.multipleOptions{
+		width: 100%;
+		height: 59px;
+		border: none;
+		padding: 0 27px;
+		margin-bottom: 30px;
+		font-size: 14px;
+		color: #01188C;
+		background: #ebf0f3;
+		font-weight: 100px;
+		resize: both;
+	}
 
-.multipleOptions{
-	width: 100%;
-	height: 59px;
-	border: none;
-	padding: 0 27px;
-	margin-bottom: 30px;
-	font-size: 14px;
-	color: #01188C;
-	background: #ebf0f3;
-	font-weight: 100px;
-	resize: both;
-}
+	.map {
+		margin: 100px 0 27px;
+		height: 511px;
+		position: relative;
+		background: #ddd;
+	}
 
-.map {
-	margin: 100px 0 27px;
-	height: 511px;
-	position: relative;
-	background: #ddd;
-}
+	.map iframe {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+	}
 
-.map iframe {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-}
+	.hero-slider .owl-dots {
+		display: none;
+	}
 
-.hero-slider .owl-dots {
-	display: none;
-}
+	.AppccDescrip {
+		padding-top: 24px;
+	}
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS */
+	.SliderPrivacidad {
+		height: 90%;
+	}
 
-.AppccDescrip,
-.DesinfeccionDescrip,
-.DesinsectacionDescrip,
-.DesratizacionDescrip,
-.FumigaDescrip,
-.LegionellaDescrip,
-.TratamientoDescrip {
-	margin-top: 20px;
+	.PrivacidadDescrip h2 {
+		margin-top: 500px;
+	}
 
-}
+	.SliderLegal {
+		height: 90%;
+	}
 
-.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 80%;
-}
+	.LegalDescrip h2 {
+		margin-top: 500px;
+	}
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
+	.SliderCookies {
+		height: 90%;
+	}
 
-/* .AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 500px; 
-}
-
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 90%;
-} */
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 500px;
-}
-
-.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 90%;
-}
-
-/* PRIVACIDAD */
-
-.SliderPrivacidad {
-	height: 90%;
-}
-
-.PrivacidadDescrip h2 {
-	margin-top: 500px;
-}
-
-/* LEGAL */
-
-.SliderLegal {
-	height: 90%;
-}
-
-.LegalDescrip h2 {
-	margin-top: 500px;
-}
-
-/* COOKIES */
-
-.SliderCookies {
-	height: 90%;
-}
-
-.CookiesDescrip h2 {
-	margin-top: 500px;
-} 
+	.CookiesDescrip h2 {
+		margin-top: 500px;
+	} 
 
 
 /* MEDIA QUERIES */
@@ -974,113 +884,34 @@ Contacto Page
 /* Laptops y computadoras */
 @media (min-width: 1145px) and (max-width: 1281px) {
 
-.hr-btn {
-	color: #fff;
-	font-size: 15px;
-	font-weight: 700;
-	padding: 15px 2px 13px 5px;
-}
+	.hr-btn {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 700;
+		padding: 15px 2px 13px 5px;
+	}
 
-.header-right {
-	padding-right: 5px;
-	background-color: #01188C;
-	display: flex;
-}
+	.header-right {
+		padding-right: 5px;
+		background-color: #01188C;
+		display: flex;
+	}
 
-.main-menu {
-	padding-right: 3px;
-	padding-left: 2px;
-	display: flex;
-	justify-content: space-around;
-}
+	.main-menu {
+		padding-right: 3px;
+		padding-left: 2px;
+		display: flex;
+		justify-content: space-around;
+	}
 
-.hr-btn-2 {
-	font-size: medium;
-}
+	.hr-btn-2 {
+		font-size: medium;
+	}
 
-.InspeccionBotonEmpresa {
-	min-width: 333px;
-}
+	.InspeccionBotonEmpresa {
+		min-width: 333px;
+	}
 
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS*/
-
-.AppccDescrip,
-.DesinfeccionDescrip,
-.DesinsectacionDescrip,
-.DesratizacionDescrip,
-.FumigaDescrip,
-.LegionellaDescrip,
-.TratamientoDescrip {
-	margin-top: 550px;
-}
-
-.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 80%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}
-
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}
-
-	/* PRIVACIDAD */
 
 	.SliderPrivacidad {
 		height: 50%;
@@ -1090,9 +921,6 @@ Contacto Page
 		margin-top: 420px;
 	}
 
-	
-	/* LEGAL */
-
 	.SliderLegal {
 		height: 50%;
 	}
@@ -1101,10 +929,8 @@ Contacto Page
 		margin-top: 420px;
 	}
 
-	/* COOKIES */
-
-		.SliderCookies {
-		height: 50%;
+	.SliderCookies {
+	height: 50%;
 	}
 
 	.CookiesDescrip h2 {
@@ -1114,596 +940,39 @@ Contacto Page
 	.aboutEmpresa {
 		margin-top: 30px;
 	}
+
 }
 
 /* Intermedio */
 @media (min-width: 953px) and (max-width: 1144px) {
 
-.hr-btn {
-	display: none;
-}
-
-.header-right {
-	display: none;
-}
-
-.hr-btn-2 {
-	display: none;
-}
-
-.navbar-brand {
-	display: block;
-	padding: 33.5px 0px 18px 60px;
-	float: left;
-}
-
-.main-menu {
-	padding-right: 100px;
-	padding-left: 50px;
-	display: flex;
-}
-
-.InspeccionBotonEmpresa {
-	min-width: 333px;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS*/
-
-.AppccDescrip h2,
-.DesinfeccionDescrip h2,
-.DesinsectacionDescrip h2,
-.DesratizacionDescrip h2,
-.FumigaDescrip h2,
-.LegionellaDescrip h2,
-.TratamientoDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}
-
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}
-
-/* PRIVACIDAD */
-
-.SliderPrivacidad {
-	height: 50%;
-}
-
-.PrivacidadDescrip h2 {
-	margin-top: 420px;
-}
-
-
-/* LEGAL */
-
-.SliderLegal {
-	height: 50%;
-}
-
-.LegalDescrip h2 {
-	margin-top: 420px;
-}
-
-/* COOKIES */
-
-	.SliderCookies {
-	height: 50%;
-}
-
-.CookiesDescrip h2 {
-	margin-top: 420px;
-} 
-
-/* .aboutEmpresa {
-	margin-top: 30px;
-} */
-
-} 
-
-/* Tablets baja resolución y móviles (landscape) */
-@media (min-width: 481px) and (max-width: 952px) {
-
-body {
-	margin-top: -30px;
-}
-
-.header-section {
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 0px
-}
-
-.header-nav {
-	display: block;
-	padding: 25px;
-}
-
-.hero-slider {
-	width: 100%;
-	height: 80%;
-}
-
-.navbar-brand {
-	padding: 33.5px 0px;
-	float: initial;
-	display: flex;
-	justify-content: center;
-}
-
-.main-menu {
-	display: none;
-}
-
-.slicknav_menu {
-	padding: 10px;
-	display: block;
-	background: transparent;
-	display: flex;
-	justify-content: center;
-
-}
-.slicknav_btn {
-	background: #01188C;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	height: 30px;
-}
-
-.slicknav_nav {
-	background: #01188C;
-	margin-bottom: 0px;
-	
-}
-.slicknav_nav a {
-	margin: 0;
-	padding: 10px 20px;
-}
-
-.slicknav_nav a:hover {
-	color: #01188C;
-	border-radius: 0;
-	background: #01188C;
-}
-.slicknav_nav .slicknav_row {
-	padding: 10px 20px;
-	margin: 0;
-}
-.slicknav_nav .slicknav_row:hover {
-	border-radius: 0;
-	background: #01188C;
-}
-.slicknav_parent:hover {
-	background: #01188C;
-	color: #01188C;
-}
-
-.header-right {
-	display: none;
-}
-
-.hs-text {
-	font-size: 30px;
-	text-align: left;
-	margin-bottom: 80px;
-	padding-top: 200px;
-}
-
-.hs-text a {
-	padding-top: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.hero-slider .hs-item {
-	height: 115%;
-}
-
-.score-section h2, .hs-text h1 {
-	font-size: 50px;
-}
-
-.score-section .hand-img {
-	display: none;
-}
-
-.sidebar {
-	padding-top: 50px;
-}
-
-.inspeccionLegionella {
-	display: flex;
-	align-items: center;
-}
-
-.contact-text {
-	padding-top: 70px;
-}
-
-.InspeccionBotonEmpresa {
-	min-width: 333px;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS */
-
-.AppccDescrip h2,
-.DesinfeccionDescrip h2,
-.DesinsectacionDescrip h2,
-.DesratizacionDescrip h2,
-.FumigaDescrip h2,
-.LegionellaDescrip h2,
-.TratamientoDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}
-
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}
-
-/* PRIVACIDAD */
-
-.SliderPrivacidad {
-	height: 50%;
-}
-
-.PrivacidadDescrip h2 {
-	margin-top: 420px;
-}
-
-
-/* LEGAL */
-
-.SliderLegal {
-	height: 50%;
-}
-
-.LegalDescrip h2 {
-	margin-top: 420px;
-}
-
-/* COOKIES */
-
-	.SliderCookies {
-	height: 50%;
-}
-
-.CookiesDescrip h2 {
-	margin-top: 420px;
-} 
-
-} 
-
-/* Mayoría de los smartphone (portrait) */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-body {
-	margin-top: -30px;
-}
-
-.header-section {
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 0px
-}
-
-.header-nav {
-	display: block;
-	padding: 25px;
-}
-
-.hero-slider {
-	width: 100%;
-	height: 80%;
-}
-
-.navbar-brand {
-	padding: 33.5px 0px;
-	float: initial;
-	display: flex;
-	justify-content: center;
-}
-
-.main-menu {
-	display: none;
-}
-
-.slicknav_menu {
-	padding: 10px;
-	display: block;
-	background: transparent;
-	display: flex;
-	justify-content: center;
-
-}
-.slicknav_btn {
-	background: #01188C;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	height: 30px;
-}
-
-.slicknav_nav {
-	background: #01188C;
-	margin-bottom: 0px;
-	
-}
-.slicknav_nav a {
-	margin: 0;
-	padding: 10px 20px;
-}
-
-.slicknav_nav a:hover {
-	color: #01188C;
-	border-radius: 0;
-	background: #01188C;
-}
-.slicknav_nav .slicknav_row {
-	padding: 10px 20px;
-	margin: 0;
-}
-.slicknav_nav .slicknav_row:hover {
-	border-radius: 0;
-	background: #01188C;
-}
-.slicknav_parent:hover {
-	background: #01188C;
-	color: #01188C;
-}
-
-.header-right {
-	display: none;
-}
-
-.hs-text {
-	font-size: 30px;
-	text-align: left;
-	margin-bottom: 80px;
-	padding-top: 200px;
-}
-
-.hs-text a {
-	padding-top: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.hero-slider .hs-item {
-	height: 115%;
-}
-
-.score-section h2, .hs-text h1 {
-	font-size: 50px;
-}
-
-.score-section .hand-img {
-	display: none;
-}
-
-.sidebar {
-	padding-top: 50px;
-}
-
-.inspeccionLegionella {
-	display: flex;
-	align-items: center;
-}
-
-.img-fluid {
-	display: none;
-}
-
-.contact-text {
-	padding-top: 70px;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SERVICIOS */
-
-.AppccDescrip h2,
-.DesinfeccionDescrip h2,
-.DesinsectacionDescrip h2,
-.DesratizacionDescrip h2,
-.FumigaDescrip h2,
-.LegionellaDescrip h2,
-.TratamientoDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderDesinfeccion,
-.SliderAppcc,
-.SliderDesinsectacion,
-.SliderDesratizacion,
-.SliderFumigacion,
-.SliderLegionella,
-.SliderTrataMadera {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES SECTORES */
-
-.AdminDescrip h2,
-.ComercDescrip h2,
-.EducDescrip h2,
-.HosteleriaDescrip h2,
-.HotelDescrip h2,
-.OficiDescrip h2,
-.ParticDescrip h2,
-.SanitDescrip h2 {
-	margin-top: 530px; 
-}
-
-.SliderAdmin,
-.SliderComerc,
-.SliderEduc,
-.SliderHosteleria,
-.SliderHotel,
-.SliderOfici,
-.SliderPartic,
-.SliderSanit {
-	height: 60%;
-}
-
-/* ADAPTACIONES DE PAGINAS ADICIONALES PLAGAS */
-
-.avesDescrip h2,
-.avispasDescrip h2,
-.carcomaDescrip h2,
-.chincheDescrip h2,
-.cucarachaDescrip h2,
-.hormigaDescrip h2,
-.moscaDescrip h2,
-.mosquitoDescrip h2,
-.procesionariaDescrip h2,
-.pulgaDescrip h2,
-.roedorDescrip h2,
-.termitaDescrip h2 {
-	margin-top: 530px;
-}
-
-.SliderAves,
-.SliderAvispa,
-.SliderCarcoma,
-.SliderChinche,
-.SliderCucaracha,
-.SliderHormiga,
-.SliderMosca,
-.SliderMosquito,
-.SliderProcesionaria,
-.SliderPulga,
-.SliderRoedor,
-.SliderTermita {
-	height: 60%;
-}
-
-	/* PRIVACIDAD */
+	.hr-btn {
+		display: none;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.hr-btn-2 {
+		display: none;
+	}
+
+	.navbar-brand {
+		display: block;
+		padding: 33.5px 0px 18px 60px;
+		float: left;
+	}
+
+	.main-menu {
+		padding-right: 100px;
+		padding-left: 50px;
+		display: flex;
+	}
+
+	.InspeccionBotonEmpresa {
+		min-width: 333px;
+	}
 
 	.SliderPrivacidad {
 		height: 50%;
@@ -1713,8 +982,157 @@ body {
 		margin-top: 420px;
 	}
 
-	
-	/* LEGAL */
+	.SliderLegal {
+		height: 50%;
+	}
+
+	.LegalDescrip h2 {
+		margin-top: 420px;
+	}
+
+	.SliderCookies {
+	height: 50%;
+	}
+
+	.CookiesDescrip h2 {
+		margin-top: 420px;
+	} 
+
+} 
+
+/* Tablets baja resolución y móviles (landscape) */
+@media (min-width: 481px) and (max-width: 952px) {
+
+	body {
+		margin-top: -30px;
+	}
+
+	.header-section {
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px
+	}
+
+	.header-nav {
+		display: block;
+		padding: 25px;
+	}
+
+	.hero-slider {
+		width: 100%;
+		height: 80%;
+	}
+
+	.navbar-brand {
+		padding: 33.5px 0px;
+		float: initial;
+		display: flex;
+		justify-content: center;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.slicknav_menu {
+		padding: 10px;
+		display: block;
+		background: transparent;
+		display: flex;
+		justify-content: center;
+
+	}
+	.slicknav_btn {
+		background: #01188C;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		height: 30px;
+	}
+
+	.slicknav_nav {
+		background: #01188C;
+		margin-bottom: 0px;
+		
+	}
+	.slicknav_nav a {
+		margin: 0;
+		padding: 10px 20px;
+	}
+
+	.slicknav_nav a:hover {
+		color: #01188C;
+		border-radius: 0;
+		background: #01188C;
+	}
+	.slicknav_nav .slicknav_row {
+		padding: 10px 20px;
+		margin: 0;
+	}
+	.slicknav_nav .slicknav_row:hover {
+		border-radius: 0;
+		background: #01188C;
+	}
+	.slicknav_parent:hover {
+		background: #01188C;
+		color: #01188C;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.hs-text {
+		font-size: 30px;
+		text-align: left;
+		margin-bottom: 80px;
+		padding-top: 200px;
+	}
+
+	.hs-text a {
+		padding-top: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero-slider .hs-item {
+		height: 115%;
+	}
+
+	.score-section h2, .hs-text h1 {
+		font-size: 50px;
+	}
+
+	.score-section .hand-img {
+		display: none;
+	}
+
+	.sidebar {
+		padding-top: 50px;
+	}
+
+	.inspeccionLegionella {
+		display: flex;
+		align-items: center;
+	}
+
+	.contact-text {
+		padding-top: 70px;
+	}
+
+	.InspeccionBotonEmpresa {
+		min-width: 333px;
+	}
+
+	.SliderPrivacidad {
+		height: 50%;
+	}
+
+	.PrivacidadDescrip h2 {
+		margin-top: 420px;
+	}
 
 	.SliderLegal {
 		height: 50%;
@@ -1724,17 +1142,166 @@ body {
 		margin-top: 420px;
 	}
 
-	/* COOKIES */
 
-		.SliderCookies {
-		height: 50%;
+	.SliderCookies {
+	height: 50%;
 	}
 
 	.CookiesDescrip h2 {
 		margin-top: 420px;
 	} 
 
+} 
 
+/* Mayoría de los smartphone (portrait) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	body {
+		margin-top: -30px;
+	}
+
+	.header-section {
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px
+	}
+
+	.header-nav {
+		display: block;
+		padding: 25px;
+	}
+
+	.hero-slider {
+		width: 100%;
+		height: 80%;
+	}
+
+	.navbar-brand {
+		padding: 33.5px 0px;
+		float: initial;
+		display: flex;
+		justify-content: center;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.slicknav_menu {
+		padding: 10px;
+		display: block;
+		background: transparent;
+		display: flex;
+		justify-content: center;
+
+	}
+	.slicknav_btn {
+		background: #01188C;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		height: 30px;
+	}
+
+	.slicknav_nav {
+		background: #01188C;
+		margin-bottom: 0px;
+		
+	}
+	.slicknav_nav a {
+		margin: 0;
+		padding: 10px 20px;
+	}
+
+	.slicknav_nav a:hover {
+		color: #01188C;
+		border-radius: 0;
+		background: #01188C;
+	}
+	.slicknav_nav .slicknav_row {
+		padding: 10px 20px;
+		margin: 0;
+	}
+	.slicknav_nav .slicknav_row:hover {
+		border-radius: 0;
+		background: #01188C;
+	}
+	.slicknav_parent:hover {
+		background: #01188C;
+		color: #01188C;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.hs-text {
+		font-size: 30px;
+		text-align: left;
+		margin-bottom: 80px;
+		padding-top: 200px;
+	}
+
+	.hs-text a {
+		padding-top: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero-slider .hs-item {
+		height: 115%;
+	}
+
+	.score-section h2, .hs-text h1 {
+		font-size: 50px;
+	}
+
+	.score-section .hand-img {
+		display: none;
+	}
+
+	.sidebar {
+		padding-top: 50px;
+	}
+
+	.inspeccionLegionella {
+		display: flex;
+		align-items: center;
+	}
+
+	.img-fluid {
+		display: none;
+	}
+
+	.contact-text {
+		padding-top: 70px;
+	}
+
+	.SliderPrivacidad {
+		height: 50%;
+	}
+
+	.PrivacidadDescrip h2 {
+		margin-top: 420px;
+	}
+
+	.SliderLegal {
+		height: 50%;
+	}
+
+	.LegalDescrip h2 {
+		margin-top: 420px;
+	}
+
+	.SliderCookies {
+	height: 50%;
+	}
+
+	.CookiesDescrip h2 {
+		margin-top: 420px;
+	} 
 } 
 
 
