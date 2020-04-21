@@ -26,7 +26,6 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" />
 
-
 	<title>Grupo ADRO | Control de Plagas en Madrid</title>
 
 </head>
@@ -122,62 +121,70 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="contact-form" id="contact-form" action="./php/contacto.php" method="POST">
+					<form class="form-contact contact_form" action="./php/contact_process.php" method="post">
+						<input type="hidden" name="token" id="token">
 
 						<div class="row">
+							<!-- form message -->
+							<div class="row">
+								<div class="col-12">
+									<div class="contact__msg" style="display: none">
+										<p>Tu mensaje ha sido enviado, ¡Gracias!</p>
+									</div>
+								</div>
+							</div>
+							<!-- end message -->
 
 							<div class="col-md-6"> Nombre
 								<div class="md-form mb-0">
-									<input type="text" id="sender" name="sender" class="form-control" required>
-									<label></label>
+									<input name="name" type="text" class="form-control" placeholder="" required>
 								</div>
 							</div>
 
 							<div class="col-md-6"> E-mail
 								<div class="md-form mb-0">
-									<input type="text" id="senderEmail" name="senderEmail" class="form-control">
-									<label></label>
+									<input name="email" type="email" class="form-control" placeholder="" required>
 								</div>
 							</div>
 
 							<div class="col-md-6"> Teléfono
 								<div class="md-form mb-0">
-									<input type="text" id="senderPhone" name="senderPhone" class="form-control">
-									<label></label>
+									<input name="phone" type="tel" class="form-control" placeholder="" required>
 								</div>
 							</div>
 
 							<div class="col-md-6"> Ciudad
 								<div class="md-form mb-0">
-									<input type="text" id="senderCity" name="senderCity" class="form-control">
-									<label></label>
+									<input name="city" type="text" class="form-control" placeholder="" required>
 								</div>
 							</div>
 							<div class="col-md-12"> ¿Dónde nos conoció?
-								<select type="text" id="senderMeet" name="senderMeet"
-									class="selectpicker col-md-12 multipleOptions">
-									<label></label>
-									<option value="senderMeet1">Google</option>
-									<option value="senderMeet2">Referenciado</option>
-									<option value="senderMeet3">Páginas amarillas</option>
-									<option value="senderMeet4">Otros</option>
+								<select class="form-control" name="option">
+									<option value="" disabled selected>Elige una opción</option>
+									<option value="1">Google</option>
+									<option value="2">Referido amig@</option>
+									<option value="3">Páginas amarillas</option>
+									<option value="4">Otros</option>
 								</select>
 
 								<div class="col-md-12"> Asunto
-									<select type="text" id="senderSubject" name="senderSubject"
-										class="selectpicker col-md-12 multipleOptions">
-										<label></label>
-										<option value="senderSubject1">Hormigas</option>
-										<option value="senderSubject2">Cucarachas</option>
-										<option value="senderSubject3">Ratas</option>
-										<option value="senderSubject4">Chinches</option>
-										<option value="senderSubject5">Otras plagas</option>
-										<option value="senderSubject6">Otras consultas</option>
+									<select class="form-control" name="subject" type="text" required>
+										<option value="" disabled selected>Elige una opción</option>
+										<option value="Subject1">Hormigas</option>
+										<option value="Subject2">Cucarachas</option>
+										<option value="Subject3">Ratas</option>
+										<option value="Subject4">Chinches</option>
+										<option value="Subject5">Otras plagas</option>
+										<option value="Subject6">Otras consultas</option>
 									</select>
-
-									<textarea type="text" id="message" name="message" class="form-control md-textarea"
-										placeholder="Tu mensaje"></textarea>
-									<label></label>
+									<br>
+								<div class="col">
+								<div class="form-group">
+									<textarea class="form-control w-100" name="message" cols="30" rows="9"
+									placeholder='Mensaje' required></textarea>
+								</div>
+								</div>
+							
 
 									<!-- Default unchecked -->
 									<div class="col-md-12 custom-control custom-checkbox">
@@ -185,21 +192,21 @@
 										<label class="custom-control-label" for="defaultUnchecked">He leído y acepto la
 											<a class="text-reset" href="./doc/Politica_de_privacidad.pdf"
 												title="Politica de privacidad" target="_blank"><b> Política de
-												privacidad</b>.</label>
+													privacidad</b>.</label>
 									</div>
 								</div>
 
-									<!-- Default unchecked FIN -->
+								<!-- Default unchecked FIN -->
 
-									<br>
-									<br>
-									<button type="submit" class="site-btn btn-primary">Enviar mensaje</button>
-								</div>
+								<br>
+								<br>
+								<button type="submit" class="site-btn btn-primary">Enviar mensaje</button>
 							</div>
 						</div>
 				</div>
-				</form>
 			</div>
+			</form>
+		</div>
 		</div>
 		<div class="map border: 1px">
 			<iframe
