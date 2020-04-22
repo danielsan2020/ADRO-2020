@@ -631,6 +631,13 @@ Feature section
 Contacta con experto section
  ---------------------*/
 
+ .score-sectionchinches .container1 {
+	padding: 200px 15px 100px;
+	position: relative;
+	background-size: 50%;
+ }
+
+
 .score-section .container {
 	padding: 103px 15px 95px;
 	position: relative;
@@ -827,26 +834,6 @@ Contacto Page
 .PrivacidadDescrip,
 .LegalDescrip {
 	padding-top: 200px;
-}
-
-.containerImagen {
-	margin: -35px 10px 36px 38px;
-	padding: 0px 40px;
-	width: 95%;
-	height: 320px;
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.containerImagen1 {
-	margin: -35px 10px 36px 38px;
-	padding: 0px 40px;
-	width: 95%;
-	height: 320px;
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .inspecTelHormiga {
